@@ -1,0 +1,60 @@
+{
+  "name": "ppDashboard",
+  "version": "1.0.1",
+  "description": "ProPlanner Dashboard",
+  "repository": "https://gitlab.com/logaritmossrl/asms/asms.backoffice",
+  "license": "MIT",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "5.15.3",
+    "@popperjs/core": "2.9.1",
+    "@tailwindcss/forms": "0.2.1",
+    "autoprefixer": "10.2.5",
+    "axios": "^1.2.0",
+    "chart.js": "2.9.4",
+    "gulp": "4.0.2",
+    "gulp-append-prepend": "1.0.8",
+    "i18next": "20.3.3",
+    "i18next-browser-languagedetector": "6.1.2",
+    "i18next-xhr-backend": "3.2.2",
+    "postcss": "8.2.8",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "react-i18next": "11.11.3",
+    "react-router": "5.2.0",
+    "react-router-dom": "5.2.0",
+    "react-scripts": "4.0.3",
+    "react-spinners": "^0.13.6",
+    "sweetalert2": "^11.0.18",
+    "sweetalert2-react-content": "^4.1.0",
+    "tailwindcss": "^3.2.4"
+  },
+  "scripts": {
+    "start": "env-cmd -f .env react-scripts start",
+    "build": "react-scripts build && gulp licenses",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm run build:tailwind && npm start",
+    "build:tailwind": "tailwind build src/assets/styles/index.css -o src/assets/styles/tailwind.css"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "optionalDependencies": {
+    "typescript": "4.2.3"
+  },
+  "devDependencies": {
+    "react-hook-form": "^7.12.2"
+  }
+}

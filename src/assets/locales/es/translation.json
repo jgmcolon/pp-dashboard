@@ -1,0 +1,18 @@
+{
+  "label_username": "Usuario",
+  "label_password": "Contraseña",
+  "label_rememberme": "Recuérdame en este dispositivo",
+  "label_forgot_password": "¿Se te olvidó tu contraseña?",
+  "label_login": "Inicie sesión con sus credenciales",
+  "label_email": "correo electrónico",
+  "placeholder_username": "Nombre de usuario",
+  "placeholder_password": "Contraseña",
+  "placeholder_email": "Correo electrónico",
+  "button_sign_in": "Iniciar sesión",
+  "button_sign_out": "Desconectar",
+  "button_submit": "Enviar",
+  "required_username": "El correo electrónico es requerido",
+  "required_username_mail": "La dirección de correo electrónico no es válida.",
+  "required_password": "La contraseña es requerida",
+  "msj_login_fail": "El nombre de usuario o la contraseña son incorrectos. Esto se corrige fácilmente escribiendo el nombre de usuario y la contraseña correctos."
+}

@@ -1,0 +1,18 @@
+{
+  "label_username": "Username",
+  "label_password": "Password",
+  "label_rememberme": "Remember me",
+  "label_forgot_password": "Forgot password?",
+  "label_login": "Sign in with credentials",
+  "label_email": "Email",
+  "placeholder_username": "Username",
+  "placeholder_password": "Password",
+  "placeholder_email": "Email",
+  "button_sign_in": "Sign In",
+  "button_sign_out": "Sign Out",
+  "button_submit": "Send",
+  "required_username": "Email is required",
+  "required_username_mail": "The email address is not valid.",
+  "required_password": "Password is required",
+  "msj_login_fail": "The user name or password are incorrect. This is easily corrected by typing the correct user name and password."
+}
