@@ -1,4 +1,4 @@
-import {set, SetSessionStorage} from "helper/DataStorage";
+import {SetSessionStorage} from "helper/DataStorage";
 
 export const postCheckAccount = ({username, password}) => {
     let auth = (username === 'prologin@prologin.com' && password === 'ProLogin123456');
